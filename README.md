@@ -28,5 +28,11 @@ Sensitivity / Recall: 0.9866310160427807
 Accuracy: 0.9822695035460993 
 Precision: 0.9736147757255936 
 
+## Live Drowsiness Detection
+Open CV Library is used to capture frames from live webcam. 
+Then the eyes are cropped using a face-recognition function and the cropped eye image is used as in input to the CNN Model.
+The CNN model then detect if the eye is open or closed. If the eye is predicted to be closed for 5 consecutive frames, a Warning is popped on the screen.
+
+
 
 
